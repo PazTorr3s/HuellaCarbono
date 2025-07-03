@@ -1,3 +1,13 @@
+#Instalacion
+En el cmd entrar a la carpeta web del proyecto.
+
+1.- Web> pip install django
+2.- Web> pip install pymysql
+3.- Web> pip install reportlab
+4.- Web> python manage.py runserver
+
+
+#Credenciales Base de Datos
 HOST=bbchjbmewgmantd0ibzv-mysql.services.clever-cloud.com
 DB=bbchjbmewgmantd0ibzv
 USER=ukr3dmfpygz4uyrd
@@ -5,6 +15,6 @@ PORT=3306
 PASSWORD=qh4hFOwgIwH3AGD88jLp
 
 
-Credenciales administrador
+#Credenciales administrador
 Corrreo: paztorres05@gmail.com
 Contraseña: 6218

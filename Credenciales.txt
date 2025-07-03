@@ -5,3 +5,6 @@ PORT=3306
 PASSWORD=qh4hFOwgIwH3AGD88jLp
 
 
+Credenciales administrador
+Corrreo: paztorres05@gmail.com
+Contraseña: 6218

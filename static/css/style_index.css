@@ -1,0 +1,148 @@
+.navbar-custom {
+    background: radial-gradient(circle, #2196F3, #6EC6FF);
+    border-bottom: 3px solid #3ca0e4;
+}
+
+.navbar-footer {
+    background: radial-gradient(circle, #2196F3, #6EC6FF);
+    border-top: 3px solid #3ca0e4;
+}
+
+.navbar-footer {
+    padding: 20px 0;
+    color: #FFFFFF;
+}
+
+.navbar-footer h5 {
+    margin-bottom: 15px;
+}
+
+.navbar-footer a {
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+
+.navbar-footer a:hover {
+    color: #ddd;
+}
+
+button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    border-radius: 5px !important;
+    transition: background-color 0.5 ease;
+}
+
+button:hover {
+    background-color: #6EC6FF;
+}
+
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #FFFFFF; 
+}
+
+#nombre-empresa {
+    font-size: 90px;
+    color: #2196F3;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+}
+
+#sost-empresa {
+    color: #6EC6FF;
+    margin-bottom: 10px;
+
+}
+
+
+#boton_nav {
+    font-size: 2.1ch;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: none; 
+    padding: 6px 20px; 
+    cursor: pointer;
+    border-radius: 5px !important;
+}
+#boton_nav2 {
+    font-size: 2.1ch;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: none; 
+    padding:6px 20px; 
+    cursor: pointer;
+    border-radius: 5px !important;
+}
+#boton_nav:hover{
+    background-color: #6EC6FF;
+}
+#boton_nav2:hover{
+    background-color: #6EC6FF;
+}
+#container-2{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: beige;
+}
+
+#fin-empresa{
+    margin-top: auto;
+    text-align: center;
+}
+
+#objetivo{
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.logo-empresa {
+    max-width: 50%;
+    max-height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item img {
+    max-width: 35px;
+}
+
+#boton_nav, #boton_nav2, .btn-succes {
+    margin-top: 5px;
+}
+
+.contexto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contexto-img-left {
+    max-width: 25%;
+    border: 3.5px solid #ccc;
+    border-radius: 20%;
+}
+
+#contexto-img-left {
+    margin: 0 10px 0 0;
+}
+
+
+.contexto p {
+    max-width: 60%;
+    text-align: justify;
+    font-family: 'Roboto';
+}

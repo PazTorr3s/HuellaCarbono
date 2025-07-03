@@ -1,0 +1,163 @@
+.navbar-custom {
+    background: radial-gradient(circle, #2196F3, #6EC6FF);
+    border-bottom: 3px solid #3ca0e4;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.sidebar {
+    width: 150px;
+    height: 100vh;
+    background-color: whitesmoke;
+    border-right: 3px solid #3ca0e4;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    padding-top: 150px;
+}
+button:hover {
+    background-color: #6EC6FF;
+}
+
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #F5F5F5; 
+}
+#boton_nav {
+    font-size: 2.1ch;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: none; 
+    padding: 6px 20px; 
+    cursor: pointer;
+    border-radius: 5px !important;
+}
+#boton_nav2 {
+    font-size: 2.1ch;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: none; 
+    padding:6px 20px; 
+    cursor: pointer;
+    border-radius: 5px !important;
+}
+#boton_nav:hover{
+    background-color: #6EC6FF;
+}
+#boton_nav2:hover{
+    background-color: #6EC6FF;
+}
+#salir{
+    opacity: 96%;
+    font-size: 2.3ch;
+    font-weight: bold;
+    background: radial-gradient(circle, #fab700, red);
+    border-radius: 5px 5px 5px;
+    color: whitesmoke;
+}
+#salir:hover{
+    transition: 0.1s;
+    opacity: 100%;
+    box-shadow: 1px 1px 1px #535455;
+}
+
+.page-consumo .custom-card {
+    margin-top: 10px;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 6px 2.5px rgba(33, 150, 243, 0.5), 0 4px 8px rgba(110, 198, 255, 0.5);
+    background-color: #FFFFFF;
+    border: 2px solid #6EC6FF;
+}
+
+.page-consumo .form-control {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 480px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    max-width: 500px !important;
+    height: 60px !important; 
+}
+
+.page-consumo #login{
+    margin: 0 auto;
+    font-weight: bold;
+    fill-opacity: 90%;
+    background-color: #2196F3;
+    border-radius: 10px;
+    border-color: #2196F3;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.page-consumo #login:hover {
+    background-color: #1976D2;
+}
+
+.page-consumo #login, #edite-recurso, #edite-consumo-fecha {
+    text-align: center;
+    width: 100% !important; 
+    max-width: 450px !important;
+    height: 50px !important; 
+    margin: 0 auto; 
+}
+
+
+.page-consumo a {
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-consumo #edite-recurso {
+    margin: 0 auto;
+    font-weight: bold;
+    fill-opacity: 90%;
+    background-color: #FF9800; 
+    border-radius: 10px;
+    border-color: #FF9800;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-consumo #edite-recurso:hover {
+    background-color: #FB8C00;
+}
+
+.page-consumo #edite-consumo-fecha {
+    margin: 0 auto;
+    font-weight: bold;
+    fill-opacity: 90%;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    border-color: #4CAF50;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-consumo #edite-consumo-fecha:hover {
+    background-color: #388E3C;
+}
+
+.form-check-input {
+    cursor: pointer;
+}
+

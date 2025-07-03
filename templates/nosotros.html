@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <!-- CSS Login -->
+    <link rel="stylesheet" href="{% static 'css/style_index.css' %}">
+    <!-- Fin CSS Login -->
+    <!--  CDN Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Fin CDN Bootstrap -->
+    <style>
+        .navbar {
+            justify-content: space-between;
+        }
+        .navbar-brand {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .navbar-nav {
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Inicio Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-md d-flex justify-content-between align-items-center">
+            <ul class="navbar-nav">
+                <li class="nav-item text-center">
+                    <img src="{% static 'images/home1.png' %}" alt="Home" class="img-fluid" style="max-width: 35px;">
+                    <span><a class="nav-link active" aria-current="page" href="{% url 'index' %}"><button id="boton_nav" class="btn btn-success">Home</button></a></span>
+                </li>
+            
+                <li class="nav-item text-center">
+                    <img src="{% static 'images/maletin.png' %}" alt="Nosotros" class="img-fluid" style="max-width: 35px;">
+                    <span><a class="nav-link active" aria-current="page" href="{% url 'nosotros' %}"><button id="boton_nav2" class="btn btn-success">Nosotros</button></a></span>
+                </li>
+            </ul>
+
+            <!-- Icono Empresa -->
+            <a class="navbar-brand"><img c src="{% static 'images/logo2.png' %}" alt="Icono de la Empresa" class="img-fluid logo-empresa" style="max-height: 110px;"></a>
+            <!-- Fin Icono Empresa -->
+
+
+            <ul class="navbar-nav">
+                <li class="nav-item text-center">
+                    <form method="POST" action="{% url 'login' %}">
+                        {% csrf_token %}
+                        <button>Administrador</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Fin Navbar -->
+
+    <!-- Inicio Parte Principal -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col text-center">
+                <h1 id="nombre-empresa">Sobre Nosotros</h1>
+                <p id="objetivo">Nuestro objetivo es contribuir a mejorar con la contaminación medio ambiental, generando cambios al interior de las empresas, creando conciencia ambiental y mejores prácticas en el interior de las empresas, promoviendo un consumo responsable de materiales y recursos, lo que aporte a la disminución de la huella de carbono principal problema contaminante de las empresas, por medio de el monitoreo constante a través de sensores implementados en la empresa que cumplan con medir el consumo de energía, de materiales y la producción de residuos, se generarán analísis y reportes para disminuir estos consumos y promover mejores prácticas al interior de la empresa para garantizar que sean más sostenibles y contribuir con la ODS 11 de ciudades y comunidades sostenibles.</p>
+                <img src="https://grupobinternational.com/wp-content/uploads/2022/04/5250872-1080x675.jpg" alt="" width="50%">
+            </div>
+        </div>
+
+    </div>
+    <!-- Fin Parte Principal -->
+
+    <!-- Inicio Footer -->
+    <footer>
+        <div class="navbar navbar-expand-lg navbar-footer">
+            <div class="container">
+                <div class="row">
+                    
+                    <!-- Metodos de contacto -->
+                    <div class="col-md-6">
+                        <h5>Contacto</h5>
+                        <p>Dirección: Villa Verde 619, Santiago, Chile</p>
+                        <p>Teléfono: +56 9 1749 5840</p>
+                        <p>Email: sostenibilidad.emp@gmail.com</p>
+                    </div>
+                    <!-- Fin Metodos de contacto -->
+
+                    <!-- Redes sociales -->
+                    <div class="col-md-6">
+                        <h5>Síguenos</h5>
+                        <a href="#"><img src="{% static 'images/facebook.png' %}" alt="Facebook" style="max-width: 25px;"></a>
+                        <a href="#"><img src="{% static 'images/x.png' %}" alt="X" style="max-width: 25px;"></a>
+                        <a href="#"><img src="{% static 'images/linkedin.png' %}" alt="Linkedin" style="max-width: 25px;"></a>
+                        <a href="#"><img src="{% static 'images/instagram.png' %}" alt="Instagram" style="max-width: 25px;"></a>
+                    </div>
+                    <!-- Fin Redes sociales -->
+
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <p>&copy; 2024 EcoCompany. Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </footer>
+
+    
+    <!-- Fin Footer -->
+
+</body>
+</html>

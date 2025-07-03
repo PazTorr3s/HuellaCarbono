@@ -1,0 +1,7 @@
+HOST=bbchjbmewgmantd0ibzv-mysql.services.clever-cloud.com
+DB=bbchjbmewgmantd0ibzv
+USER=ukr3dmfpygz4uyrd
+PORT=3306
+PASSWORD=qh4hFOwgIwH3AGD88jLp
+
+
